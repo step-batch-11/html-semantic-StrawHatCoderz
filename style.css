@@ -43,3 +43,64 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+article header {
+  margin-bottom: 1.5rem;
+}
+
+article h2 {
+  font-size: 1.8rem;
+}
+
+section {
+  margin-bottom: 1.8rem;
+}
+
+section h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+mark {
+  background-color: hsl(135, 50%, 88%);
+  padding: 0.2rem 0.4rem;
+}
+
+figure {
+  margin: 1.5rem 0;
+}
+
+figure img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 35%);
+  margin-top: 0.5rem;
+}
+
+details {
+  margin-top: 1rem;
+  background: hsl(0, 0%, 100%);
+  padding: 0.8rem;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 6px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+aside {
+  background: hsl(140, 45%, 89%);
+  padding: 1rem;
+  border-left: 4px solid hsl(148, 42%, 35%);
+  margin: 2rem 0;
+}
+
+aside h4 {
+  margin-bottom: 0.5rem;
+}
